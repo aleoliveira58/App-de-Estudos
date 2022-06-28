@@ -1,13 +1,10 @@
-package com.example.meuapp.ExercicioAlunos
+package com.example.meuapp.ExercicioFamilia
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.meuapp.ExercicioMusicas.Adapter.MusicaAdapter
 import com.example.meuapp.R
 import com.example.meuapp.databinding.ActivityListaAlunosBinding
-import com.example.meuapp.databinding.ActivitySplashBinding
 
 class ListaAlunosActivity : AppCompatActivity() {
 

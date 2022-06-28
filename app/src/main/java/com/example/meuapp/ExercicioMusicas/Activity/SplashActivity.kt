@@ -1,4 +1,4 @@
-package com.example.meuapp.ExercicioMusicas
+package com.example.meuapp.ExercicioMusicas.Activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

@@ -1,4 +1,4 @@
-package com.example.meuapp.ExercicioAlunos
+package com.example.meuapp.ExercicioFamilia
 
 class AlunosModel(
     var foto: Int,

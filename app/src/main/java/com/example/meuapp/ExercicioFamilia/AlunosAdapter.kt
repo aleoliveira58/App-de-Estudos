@@ -1,19 +1,16 @@
-package com.example.meuapp.ExercicioAlunos
+package com.example.meuapp.ExercicioFamilia
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.meuapp.ExercicioMusicas.Adapter.MusicaAdapter
-import com.example.meuapp.databinding.ActivityListaAlunosBinding
 import com.example.meuapp.databinding.AlunosItemBinding
-import com.example.meuapp.databinding.MusicaLayoutBinding
 
 class AlunosAdapter(
     private val alunosList: List<AlunosModel>,
 ) : RecyclerView.Adapter<AlunosAdapter.AlunosViewHolder>() {
 
     class AlunosViewHolder(
-        val binding: AlunosItemBinding,
+        val binding: AlunosItemBinding
     ) : RecyclerView.ViewHolder(binding.root) {
         fun bind(
             alunos: AlunosModel,
