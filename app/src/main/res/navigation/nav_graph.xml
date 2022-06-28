@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.meuapp.NavigationBottom.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_cadastroFragment"
+            app:destination="@id/cadastroFragment"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"/>
+        <action
+            android:id="@+id/action_homeFragment_to_figurasFragment"
+            app:destination="@id/figurasFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_calculadoraImcFragment"
+            app:destination="@id/calculadoraImcFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"/>
+        <action
+            android:id="@+id/action_homeFragment_to_exercicioHomeFragment"
+            app:destination="@id/exercicioHomeFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"/>
+        <action
+            android:id="@+id/action_homeFragment_to_tabsFragment"
+            app:destination="@id/tabsFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"/>
+    </fragment>
+    <fragment
+        android:id="@+id/cadastroFragment"
+        android:name="com.example.meuapp.NavigationBottom.CadastroFragment"
+        android:label="fragment_cadastro"
+        tools:layout="@layout/fragment_cadastro" />
+    <fragment
+        android:id="@+id/figurasFragment"
+        android:name="com.example.meuapp.NavigationBottom.FigurasFragment"
+        android:label="fragment_figuras"
+        tools:layout="@layout/fragment_figuras" />
+    <fragment
+        android:id="@+id/calculadoraImcFragment"
+        android:name="com.example.meuapp.NavigationBottom.CalculadoraImcFragment"
+        android:label="fragment_calculadora_imc"
+        tools:layout="@layout/fragment_calculadora_imc" />
+    <fragment
+        android:id="@+id/exercicioHomeFragment"
+        android:name="com.example.meuapp.ExercicioSocio.ExercicioHomeFragment"
+        android:label="fragment_exercicio_home"
+        tools:layout="@layout/fragment_exercicio_home" />
+    <fragment
+        android:id="@+id/tabsFragment"
+        android:name="com.example.meuapp.TabsLayout.TabsFragment"
+        android:label="fragment_tabs"
+        tools:layout="@layout/fragment_tabs" />
+</navigation>
