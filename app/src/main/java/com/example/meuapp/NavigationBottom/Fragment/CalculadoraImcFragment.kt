@@ -1,4 +1,4 @@
-package com.example.meuapp.NavigationBottom
+package com.example.meuapp.NavigationBottom.Fragment
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import com.example.meuapp.databinding.FragmentCalculadoraImcBinding
+
 
 import java.text.DecimalFormat
 

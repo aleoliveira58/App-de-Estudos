@@ -1,4 +1,4 @@
-package com.example.meuapp.NavigationBottom
+package com.example.meuapp.NavigationBottom.Fragment
 
 import android.os.Bundle
 import android.os.Handler

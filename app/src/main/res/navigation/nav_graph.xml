@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.example.meuapp.NavigationBottom.HomeFragment"
+        android:name="com.example.meuapp.NavigationBottom.Fragment.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" >
         <action
@@ -36,17 +36,17 @@
     </fragment>
     <fragment
         android:id="@+id/cadastroFragment"
-        android:name="com.example.meuapp.NavigationBottom.CadastroFragment"
+        android:name="com.example.meuapp.NavigationBottom.Fragment.CadastroFragment"
         android:label="fragment_cadastro"
         tools:layout="@layout/fragment_cadastro" />
     <fragment
         android:id="@+id/figurasFragment"
-        android:name="com.example.meuapp.NavigationBottom.FigurasFragment"
+        android:name="com.example.meuapp.NavigationBottom.Fragment.FigurasFragment"
         android:label="fragment_figuras"
         tools:layout="@layout/fragment_figuras" />
     <fragment
         android:id="@+id/calculadoraImcFragment"
-        android:name="com.example.meuapp.NavigationBottom.CalculadoraImcFragment"
+        android:name="com.example.meuapp.NavigationBottom.Fragment.CalculadoraImcFragment"
         android:label="fragment_calculadora_imc"
         tools:layout="@layout/fragment_calculadora_imc" />
     <fragment

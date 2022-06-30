@@ -1,4 +1,4 @@
-package com.example.meuapp.NavigationBottom
+package com.example.meuapp.NavigationBottom.Fragment
 
 import android.animation.Animator
 import android.os.Bundle

@@ -8,9 +8,12 @@
         <entry key="..\:/Users/julia/AndroidStudioProjects/meuAPP/app/src/main/res/drawable/tab_selector.xml" value="0.135" />
         <entry key="..\:/Users/julia/AndroidStudioProjects/meuAPP/app/src/main/res/layout-land/fragment_cadastro.xml" value="0.1" />
         <entry key="..\:/Users/julia/AndroidStudioProjects/meuAPP/app/src/main/res/layout/activity_animais.xml" value="0.25" />
+        <entry key="..\:/Users/julia/AndroidStudioProjects/meuAPP/app/src/main/res/layout/activity_home_shared.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/julia/AndroidStudioProjects/meuAPP/app/src/main/res/layout/activity_lista_alunos.xml" value="0.17" />
+        <entry key="..\:/Users/julia/AndroidStudioProjects/meuAPP/app/src/main/res/layout/activity_login_shared.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/julia/AndroidStudioProjects/meuAPP/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/julia/AndroidStudioProjects/meuAPP/app/src/main/res/layout/activity_splash.xml" value="0.22" />
+        <entry key="..\:/Users/julia/AndroidStudioProjects/meuAPP/app/src/main/res/layout/activity_splash_screen_shared.xml" value="0.13858695652173914" />
         <entry key="..\:/Users/julia/AndroidStudioProjects/meuAPP/app/src/main/res/layout/albuns_layout.xml" value="0.19746376811594202" />
         <entry key="..\:/Users/julia/AndroidStudioProjects/meuAPP/app/src/main/res/layout/alunos_item.xml" value="0.25" />
         <entry key="..\:/Users/julia/AndroidStudioProjects/meuAPP/app/src/main/res/layout/animais_item.xml" value="0.203125" />
@@ -27,6 +30,7 @@
         <entry key="..\:/Users/julia/AndroidStudioProjects/meuAPP/app/src/main/res/layout/fragment_photo.xml" value="0.19746376811594202" />
         <entry key="..\:/Users/julia/AndroidStudioProjects/meuAPP/app/src/main/res/layout/fragment_rappa.xml" value="0.19746376811594202" />
         <entry key="..\:/Users/julia/AndroidStudioProjects/meuAPP/app/src/main/res/layout/fragment_socio.xml" value="0.25" />
+        <entry key="..\:/Users/julia/AndroidStudioProjects/meuAPP/app/src/main/res/layout/fragment_socio_splah.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/julia/AndroidStudioProjects/meuAPP/app/src/main/res/layout/fragment_tab1.xml" value="0.1" />
         <entry key="..\:/Users/julia/AndroidStudioProjects/meuAPP/app/src/main/res/layout/fragment_tab2.xml" value="0.19010416666666666" />
         <entry key="..\:/Users/julia/AndroidStudioProjects/meuAPP/app/src/main/res/layout/fragment_tab3.xml" value="0.19010416666666666" />

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.meuapp" >
+    package="com.example.meuapp">
 
     <application
         android:allowBackup="true"
@@ -12,10 +12,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MeuAPP"
-        tools:targetApi="31" >
+        tools:targetApi="31">
+        <activity
+            android:name=".ExercicioSharedPreferense.LoginSharedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ExercicioSharedPreferense.HomeSharedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ExercicioSharedPreferense.SplashScreenSharedActivity"
+            android:exported="false" />
         <activity
             android:name=".ExercicioAnimais.AnimaisActivity"
-            android:exported="true" >
+            android:exported="false"/>
+
+        <activity
+            android:name=".NavigationBottom.MainActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,12 +37,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".NavigationBottom.MainActivity"
-            android:exported="false" />
-        <activity
             android:name=".ExercicioMusicas.Activity.SplashActivity"
             android:exported="false" />
-
         <activity
             android:name=".ExercicioFamilia.ListaAlunosActivity"
             android:exported="false" />
