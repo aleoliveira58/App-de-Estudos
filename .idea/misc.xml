@@ -3,23 +3,32 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/julia/AndroidStudioProjects/meuAPP/app/src/main/res/drawable/ic_camera_black.xml" value="0.1005" />
         <entry key="..\:/Users/julia/AndroidStudioProjects/meuAPP/app/src/main/res/drawable/ic_launcher_background.xml" value="0.135" />
+        <entry key="..\:/Users/julia/AndroidStudioProjects/meuAPP/app/src/main/res/drawable/ic_video_cam.xml" value="0.1005" />
         <entry key="..\:/Users/julia/AndroidStudioProjects/meuAPP/app/src/main/res/drawable/tab_indicator_selected.xml" value="0.135" />
         <entry key="..\:/Users/julia/AndroidStudioProjects/meuAPP/app/src/main/res/drawable/tab_selector.xml" value="0.135" />
         <entry key="..\:/Users/julia/AndroidStudioProjects/meuAPP/app/src/main/res/layout-land/fragment_cadastro.xml" value="0.1" />
+        <entry key="..\:/Users/julia/AndroidStudioProjects/meuAPP/app/src/main/res/layout-v21/call_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/julia/AndroidStudioProjects/meuAPP/app/src/main/res/layout-v21/status_item.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/julia/AndroidStudioProjects/meuAPP/app/src/main/res/layout/activity_animais.xml" value="0.25" />
         <entry key="..\:/Users/julia/AndroidStudioProjects/meuAPP/app/src/main/res/layout/activity_home_shared.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/julia/AndroidStudioProjects/meuAPP/app/src/main/res/layout/activity_lista_alunos.xml" value="0.17" />
         <entry key="..\:/Users/julia/AndroidStudioProjects/meuAPP/app/src/main/res/layout/activity_login_shared.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/julia/AndroidStudioProjects/meuAPP/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/julia/AndroidStudioProjects/meuAPP/app/src/main/res/layout/activity_main_whats.xml" value="0.25" />
         <entry key="..\:/Users/julia/AndroidStudioProjects/meuAPP/app/src/main/res/layout/activity_splash.xml" value="0.22" />
         <entry key="..\:/Users/julia/AndroidStudioProjects/meuAPP/app/src/main/res/layout/activity_splash_screen_shared.xml" value="0.13858695652173914" />
         <entry key="..\:/Users/julia/AndroidStudioProjects/meuAPP/app/src/main/res/layout/albuns_layout.xml" value="0.19746376811594202" />
         <entry key="..\:/Users/julia/AndroidStudioProjects/meuAPP/app/src/main/res/layout/alunos_item.xml" value="0.25" />
         <entry key="..\:/Users/julia/AndroidStudioProjects/meuAPP/app/src/main/res/layout/animais_item.xml" value="0.203125" />
+        <entry key="..\:/Users/julia/AndroidStudioProjects/meuAPP/app/src/main/res/layout/call_item.xml" value="0.22" />
+        <entry key="..\:/Users/julia/AndroidStudioProjects/meuAPP/app/src/main/res/layout/chats_item.xml" value="0.203125" />
         <entry key="..\:/Users/julia/AndroidStudioProjects/meuAPP/app/src/main/res/layout/fragment_albuns.xml" value="0.21" />
         <entry key="..\:/Users/julia/AndroidStudioProjects/meuAPP/app/src/main/res/layout/fragment_cadastro.xml" value="0.25" />
         <entry key="..\:/Users/julia/AndroidStudioProjects/meuAPP/app/src/main/res/layout/fragment_calculadora_imc.xml" value="0.25" />
+        <entry key="..\:/Users/julia/AndroidStudioProjects/meuAPP/app/src/main/res/layout/fragment_call.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/julia/AndroidStudioProjects/meuAPP/app/src/main/res/layout/fragment_chat.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/julia/AndroidStudioProjects/meuAPP/app/src/main/res/layout/fragment_exercicio_home.xml" value="0.25" />
         <entry key="..\:/Users/julia/AndroidStudioProjects/meuAPP/app/src/main/res/layout/fragment_figuras.xml" value="0.2028985507246377" />
         <entry key="..\:/Users/julia/AndroidStudioProjects/meuAPP/app/src/main/res/layout/fragment_home.xml" value="0.25" />
@@ -27,10 +36,12 @@
         <entry key="..\:/Users/julia/AndroidStudioProjects/meuAPP/app/src/main/res/layout/fragment_linear_relative.xml" value="0.2028985507246377" />
         <entry key="..\:/Users/julia/AndroidStudioProjects/meuAPP/app/src/main/res/layout/fragment_musicas.xml" value="0.25" />
         <entry key="..\:/Users/julia/AndroidStudioProjects/meuAPP/app/src/main/res/layout/fragment_no_socio.xml" value="0.2028985507246377" />
+        <entry key="..\:/Users/julia/AndroidStudioProjects/meuAPP/app/src/main/res/layout/fragment_permissao.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/julia/AndroidStudioProjects/meuAPP/app/src/main/res/layout/fragment_photo.xml" value="0.19746376811594202" />
         <entry key="..\:/Users/julia/AndroidStudioProjects/meuAPP/app/src/main/res/layout/fragment_rappa.xml" value="0.19746376811594202" />
         <entry key="..\:/Users/julia/AndroidStudioProjects/meuAPP/app/src/main/res/layout/fragment_socio.xml" value="0.25" />
         <entry key="..\:/Users/julia/AndroidStudioProjects/meuAPP/app/src/main/res/layout/fragment_socio_splah.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/julia/AndroidStudioProjects/meuAPP/app/src/main/res/layout/fragment_status.xml" value="0.25" />
         <entry key="..\:/Users/julia/AndroidStudioProjects/meuAPP/app/src/main/res/layout/fragment_tab1.xml" value="0.1" />
         <entry key="..\:/Users/julia/AndroidStudioProjects/meuAPP/app/src/main/res/layout/fragment_tab2.xml" value="0.19010416666666666" />
         <entry key="..\:/Users/julia/AndroidStudioProjects/meuAPP/app/src/main/res/layout/fragment_tab3.xml" value="0.19010416666666666" />
@@ -38,6 +49,7 @@
         <entry key="..\:/Users/julia/AndroidStudioProjects/meuAPP/app/src/main/res/layout/image_layout.xml" value="0.19746376811594202" />
         <entry key="..\:/Users/julia/AndroidStudioProjects/meuAPP/app/src/main/res/layout/musica_layout.xml" value="0.25" />
         <entry key="..\:/Users/julia/AndroidStudioProjects/meuAPP/app/src/main/res/layout/musica_layout2.xml" value="0.19746376811594202" />
+        <entry key="..\:/Users/julia/AndroidStudioProjects/meuAPP/app/src/main/res/layout/status_item.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/julia/AndroidStudioProjects/meuAPP/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.17407407407407408" />
       </map>
     </option>
