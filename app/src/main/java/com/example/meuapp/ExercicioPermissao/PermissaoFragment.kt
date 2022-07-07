@@ -1,8 +1,10 @@
 package com.example.meuapp.ExercicioPermissao
 
 import android.Manifest
+import android.content.Intent
 import android.content.pm.PackageManager
 import android.os.Bundle
+import android.provider.MediaStore
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
@@ -12,6 +14,7 @@ import androidx.core.content.ContextCompat
 import com.example.meuapp.R
 import com.example.meuapp.databinding.FragmentPermissaoBinding
 import com.google.android.material.snackbar.Snackbar
+import javax.xml.transform.Result
 
 
 class PermissaoFragment : Fragment() {
@@ -41,15 +44,15 @@ class PermissaoFragment : Fragment() {
             registerForActivityResult(ActivityResultContracts.RequestPermission()
             ) { isGranted: Boolean ->
                 if (isGranted) {
-                    Snackbar.make(
-                        binding!!.ibCompartilhamento, "Permissão já concedida",
-                        Snackbar.LENGTH_SHORT
-                    ).show()
+//                    Snackbar.make(
+//                        binding!!.ibCompartilhamento, "Permissão já concedida",
+//                        Snackbar.LENGTH_SHORT
+//                    ).show()
                 } else {
-                    Snackbar.make(
-                        binding!!.ibCompartilhamento, "Permissão não concedida",
-                        Snackbar.LENGTH_SHORT
-                    ).show()
+//                    Snackbar.make(
+//                        binding!!.ibCompartilhamento, "Permissão não concedida",
+//                        Snackbar.LENGTH_SHORT
+//                    ).show()
                 }
             }
 
@@ -58,7 +61,7 @@ class PermissaoFragment : Fragment() {
                 activity?.let { it1 ->
                     ContextCompat.checkSelfPermission(
                         it1,
-                        Manifest.permission.MANAGE_EXTERNAL_STORAGE
+                        Manifest.permission.WRITE_EXTERNAL_STORAGE
                     )
                 }
                 -> {
@@ -72,7 +75,7 @@ class PermissaoFragment : Fragment() {
                     // You can directly ask for the permission.
                     // The registered ActivityResultCallback gets the result of this request.
                     requestPermissionLauncher.launch(
-                        Manifest.permission.MANAGE_EXTERNAL_STORAGE)
+                        Manifest.permission.WRITE_EXTERNAL_STORAGE)
                 }
             }
 

@@ -2,8 +2,6 @@ package com.example.meuapp.ExercicioMusicas.Activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.viewpager.widget.ViewPager
-import com.example.meuapp.ExercicioMusicas.Adapter.ImagensAdapter
 import com.example.meuapp.ExercicioMusicas.Adapter.ViewPageAdapterMusicas
 import com.example.meuapp.ExercicioMusicas.Fragments.AlbunsFragment
 import com.example.meuapp.ExercicioMusicas.Fragments.ImagensFragment
@@ -32,6 +30,7 @@ class SplashActivity : AppCompatActivity() {
             fragmentsList = fragments,
             fragmentsTitleList = fragmentsPageTitle
         )
+
 
 
 

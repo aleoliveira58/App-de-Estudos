@@ -33,6 +33,12 @@
             app:destination="@id/tabsFragment"
             app:enterAnim="@android:anim/fade_in"
             app:exitAnim="@android:anim/fade_out"/>
+        <action
+            android:id="@+id/action_homeFragment_to_permissaoFragment"
+            app:destination="@id/permissaoFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_sharedNativoFragment"
+            app:destination="@id/sharedNativoFragment" />
     </fragment>
     <fragment
         android:id="@+id/cadastroFragment"
@@ -59,4 +65,14 @@
         android:name="com.example.meuapp.TabsLayout.TabsFragment"
         android:label="fragment_tabs"
         tools:layout="@layout/fragment_tabs" />
+    <fragment
+        android:id="@+id/permissaoFragment"
+        android:name="com.example.meuapp.ExercicioPermissao.PermissaoFragment"
+        android:label="fragment_permissao"
+        tools:layout="@layout/fragment_permissao" />
+    <fragment
+        android:id="@+id/sharedNativoFragment"
+        android:name="com.example.meuapp.NavigationBottom.Fragment.SharedNativoFragment"
+        android:label="fragment_shared_nativo"
+        tools:layout="@layout/fragment_shared_nativo" />
 </navigation>

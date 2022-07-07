@@ -19,6 +19,6 @@ class SplashScreenSharedActivity : AppCompatActivity() {
         Handler().postDelayed({
             startActivity(Intent(this@SplashScreenSharedActivity, HomeSharedActivity:: class.java))
             finish()
-        },  200L)
+        },  5000L)
     }
 }

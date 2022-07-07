@@ -10,8 +10,8 @@
 
     <de.hdodenhof.circleimageview.CircleImageView
                 android:id="@+id/ivFotoWhatsAppStatus"
-                android:layout_width="80dp"
-                android:layout_height="80dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginLeft="8dp"
                 app:layout_constraintTop_toTopOf="parent"
@@ -29,10 +29,10 @@
                 app:layout_constraintTop_toTopOf="@id/ivFotoWhatsAppStatus"
                 app:layout_constraintStart_toEndOf="@id/ivFotoWhatsAppStatus"
                 app:layout_constraintEnd_toEndOf="parent"
-                android:textSize="18sp"
+                android:textSize="16sp"
                 android:textStyle="bold"
                 android:layout_marginStart="14dp"
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="8dp"
                 android:text="Meus Status"
                 android:textColor="@color/black"/>
 
@@ -44,7 +44,7 @@
                 app:layout_constraintStart_toEndOf="@id/ivFotoWhatsAppStatus"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/txNameWhatsAppStatus"
-                android:layout_marginTop="12dp"
+                android:layout_marginTop="8dp"
                 android:layout_marginStart="14dp"
                 android:textColor="#615F5F"/>
 

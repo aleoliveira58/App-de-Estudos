@@ -5,7 +5,7 @@
 
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission
-        android:name="android.permission.MANAGE_EXTERNAL_STORAGE"
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
         tools:ignore="ScopedStorage" />
 
     <application
@@ -19,14 +19,15 @@
         android:theme="@style/Theme.MeuAPP"
         tools:targetApi="31">
         <activity
-            android:name=".MainWhatsActivity"
-            android:exported="false" />
+            android:name=".ExercicioWhatsapp.MainWhatsActivity"
+            android:exported="true"/>
+
         <activity
             android:name=".ExercicioSharedPreferense.LoginSharedActivity"
             android:exported="false" />
         <activity
             android:name=".ExercicioSharedPreferense.HomeSharedActivity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".ExercicioSharedPreferense.SplashScreenSharedActivity"
             android:exported="false" />
@@ -43,6 +44,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".ExercicioMusicas.Activity.SplashActivity"
             android:exported="false" />

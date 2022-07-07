@@ -29,20 +29,27 @@
 
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/tabs"
-        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:maxWidth="0dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toolbar"
         app:tabBackground="@color/teal_700"
+        app:tabGravity="fill"
         app:tabIndicatorColor="@color/white"
+        app:tabIndicatorGravity="bottom"
+        app:tabMode="fixed"
         app:tabSelectedTextColor="@color/white"
         app:tabTextColor="#454444">
 
         <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:icon="@drawable/ic_camera_black" />
+            android:background="#090909"
+            android:icon="@drawable/ic_camera_black"
+            android:tint="#101010"
+            app:tint="#090909" />
 
 
         <com.google.android.material.tabs.TabItem

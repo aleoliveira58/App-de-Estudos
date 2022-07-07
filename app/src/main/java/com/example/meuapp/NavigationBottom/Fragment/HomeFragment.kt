@@ -56,6 +56,16 @@ class HomeFragment : Fragment() {
             findNavController().navigate(R.id.action_homeFragment_to_tabsFragment)
         }
 
+        binding?.btPermissao?.setOnClickListener {
+            findNavController().navigate(R.id.action_homeFragment_to_permissaoFragment)
+        }
+
+        binding?.btSharedNativo?.setOnClickListener {
+            findNavController().navigate(R.id.action_homeFragment_to_sharedNativoFragment)
+        }
+
+
+
 
     }
 
